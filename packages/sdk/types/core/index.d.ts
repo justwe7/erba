@@ -1,4 +1,4 @@
-import { eventWithTime } from '@rrweb/types';
+import { eventWithTime } from 'rrweb/typings/types';
 declare const _default: {
     start(): void;
     get(): eventWithTime[];

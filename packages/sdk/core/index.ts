@@ -1,6 +1,6 @@
 // import rrwebRecord from 'rrweb/lib/record/rrweb-record'
-import { eventWithTime, listenerHandler } from '@rrweb/types';
 import { record, getRecordConsolePlugin } from 'rrweb';
+import { eventWithTime, listenerHandler } from 'rrweb/typings/types';
 // console.log(record)
 let instanceStop: listenerHandler = null
 const events: eventWithTime[] = []

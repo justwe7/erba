@@ -7,6 +7,16 @@
   <title>回放</title>
   <link rel="stylesheet" href="./assets/rrweb-replay.css">
   <style>
+    .g-panel {
+      margin-bottom: 10px;
+      display: flex;
+      height: 200px;
+      border: 1px solid #000;
+    }
+    .m-network {
+      flex: 3;
+      border-right: 1px solid #000;
+    }
     #screen {
       width: 500px;
       height: 300px;
@@ -22,6 +32,14 @@
     <button id="play">播放</button>
     <button id="pause">暂停</button>
   </div> -->
+  <div class="g-panel">
+    <div class="m-network">
+      devtools
+    </div>
+    <div class="m-gen">
+      日志信息，访问链接
+    </div>
+  </div>
   <div id="screen">
 
   </div>

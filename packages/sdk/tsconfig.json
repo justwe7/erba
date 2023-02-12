@@ -3,6 +3,7 @@
     "lib": ["ESNext", "DOM"],
     "noImplicitAny": true,
     "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
     "module": "ESNext",
     "target": "es5",
     "jsx": "react",
